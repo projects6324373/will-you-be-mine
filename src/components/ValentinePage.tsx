@@ -126,8 +126,8 @@ const ValentinePage = () => {
             </button>
 
             <button
-              onMouseEnter={dodgeNo}
-              onTouchStart={dodgeNo}
+              onClick={dodgeNo}
+              onTouchEnd={(e) => { e.preventDefault(); dodgeNo(); }}
               className="px-10 py-4 rounded-full text-xl font-bold text-destructive-foreground bg-destructive shadow-lg cursor-pointer transition-all duration-300"
               style={
                 noPos

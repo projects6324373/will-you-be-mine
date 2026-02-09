@@ -172,7 +172,7 @@ const ValentinePage = () => {
               I knew you'd say yes 😉💖
             </p>
             <div className="mt-8 text-4xl" style={{ animation: "bounce-soft 1s ease-in-out infinite" }}>
-              💑
+              💕
             </div>
           </div>
 
